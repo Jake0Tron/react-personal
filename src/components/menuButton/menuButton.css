@@ -1,18 +1,19 @@
 .MenuButton {
-    background-color: #444;
+    background-color: #222;
     display: inline-block;
-    padding: 1em 15px;
-    border-radius: 35px;
+    padding: 1em 1.7em;
+    margin: 0 0.25em;
+    border-radius: 6em;
     transition: all 0.25s ease-in-out;
 }
 
 .MenuButton:hover {
     backGround-color: #888;
-    padding: 0.7em 18px;
+    padding: 0.7em 1.7em;
 }
 
 a {
-    color: #eee;
+    color: #c4c4c4;
     transition: all 0.125s ease-in-out;
 }
 

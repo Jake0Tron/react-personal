@@ -5,11 +5,12 @@ import './menuButton.css';
 class MenuButton extends Component {
     render() {
         return (
-            <div className="MenuButton">
-                <a href={this.props.link}>
+            <a href={this.props.link}>
+                <div className="MenuButton">
                     <div>{this.props.children}</div>
-                </a>
-            </div>
+                </div>
+            </a>
+
         );
     }
 }
