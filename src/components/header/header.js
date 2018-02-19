@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../res/img/facehole_circle_gap_lowAlpha.png';
 import './header.css';
-import MenuButton from '../menuButton/menuButton';
+import NavMenu from '../navMenu/navMenu';
 
 class Header extends Component {
   render() {
@@ -12,13 +12,7 @@ class Header extends Component {
             <img src={logo} className="Header-logo" alt="logo" />
             <h1 className="Header-title">Jake Deacon</h1>
           </header>
-          <div className="Header-button-row">
-          {/* TODO add these pages in */}
-            <MenuButton link="about-me.html">About Me</MenuButton>
-            <MenuButton link="resume.html">Resume</MenuButton>
-            <MenuButton link="https://github.com/Jake0Tron/">My Github</MenuButton>
-            {/* TODO: Set up a dropdown menu component */}
-          </div>
+          <NavMenu></NavMenu>
         </div>
       </div>
     );

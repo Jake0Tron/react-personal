@@ -1,6 +1,6 @@
 .Header {
     text-align: center;
-    width: auto;
+    width: 100%;
     display: block;
     background-color: #333;
   }
@@ -44,10 +44,7 @@
     
   }
 
-  .Header-button-row{
-    border: 1px solid black;
-    padding: 2px;
-  }
+
 
   @keyframes spin-clockwise {
     from { transform: rotate(0deg); }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './menuButton.css';
 
+
 class MenuButton extends Component {
     render() {
         return (

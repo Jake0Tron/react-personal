@@ -12,10 +12,10 @@
 }
 
 a {
-    color: #aaa;
+    color: #eee;
     transition: all 0.125s ease-in-out;
 }
 
 a:hover {
-    color: #333;
+    color: #111;
 }
