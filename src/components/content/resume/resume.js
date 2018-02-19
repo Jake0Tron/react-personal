@@ -127,7 +127,6 @@ class Resume extends Component {
           </div>
         </div>
         <div className="ResumeFooter">
-          Footer
         </div>
       </div >
 
