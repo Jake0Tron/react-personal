@@ -1,25 +1,24 @@
 .Header {
     text-align: center;
     width: 100%;
-    display: block;
+    display: inherit;
     background-color: #333;
   }
   
   .Header-logo {
-    /* animation: Header-logo-spin infinite 30s linear; */
-    height: 80px;
+    height: var(--logoSmall);
     opacity: 0.6;      
     transition: all 0.8s ease-in-out;
     
   }
   .Header-logo:hover {
-    height: 120px;
+    height: var(--logoLarge);
     transform: rotate(360deg);
     opacity: 1.0;  
   }
   
   .Header-header {
-    height: 160px;
+    height: var(--headerHeight);
     padding: 10px;
     width: auto;
     display: block;
@@ -29,12 +28,6 @@
   .Header-title {
     font-size: 1.5em;
   }
-  
-  .Header-intro {
-    font-size: large;
-  }
-  
-  
 
   .Header-bezel{
     background-color:#555; 
@@ -43,8 +36,6 @@
     border-radius: 250px 250px 250px 250px;
     
   }
-
-
 
   @keyframes spin-clockwise {
     from { transform: rotate(0deg); }

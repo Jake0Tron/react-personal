@@ -6,7 +6,9 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-         <NavMenu></NavMenu>
+        <div className="Footer-bezel">
+          <NavMenu></NavMenu>
+        </div>
       </div>
     );
   }

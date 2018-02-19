@@ -1,0 +1,20 @@
+:root{
+  --darkBlue: #0D1B2A;
+  --mediumBlue: #3A506B;
+  --lightBlue: #1481BA;
+  --blueGray: #9191AE;
+  
+  --offWhite: #DFDFDF;
+  --lightGray: #999999;
+  --middleGray: #666666;
+  --darkGray: #333333;
+  --offBlack:#111111;
+
+/* Heights */
+--footerHeight: 3.5em;
+--headerHeight:5em;
+--logoSmall:4em;
+--logoLarge:6em;
+--menuButtonPadding:1.5em;
+
+}

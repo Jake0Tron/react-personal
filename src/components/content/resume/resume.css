@@ -1,0 +1,93 @@
+@import "../../../res/css/globals.css";
+.Resume {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+/* GENERIC Title and Content */
+
+.Title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.25em 0.75em;
+  color:var(--darkBlue);
+  background:var(--middleGray);  
+  transition: all 0.4s ease-in-out;
+
+}
+
+.SubTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 0 0 0.25em 0.5em;
+  transition: all 0.2s ease-in-out;
+  opacity:1.0;
+  background:var(--lightGray);
+
+}
+
+.SubTitle:hover{
+  background: var(--blueGray);
+}
+
+.Content {
+  font-size: 1.0em;
+  padding:0.25em 0.25em 0.25em 0.75em;
+}
+
+.ContentTableRow {
+  display: inline-block;
+}
+
+.ContentTableCell {
+  text-align: center;
+  border: var(--darkGray) solid 0.01em;
+  display: block;
+  padding: 0.5em;
+}
+
+li {
+  padding-left: 0px;
+  margin-left: 0.2em;
+}
+
+.ResumeHeader {
+  text-align: center;
+}
+
+/* HEADER */
+
+.ResumeHeaderTitle {
+  font-size: 2.5em;
+  padding: 0.10em;
+  background: var(--middleGray)
+}
+
+.ResumeHeaderSubTitle {
+  font-size: 1.25em;
+  padding: 0.10em;
+  background: var(--lightGray);
+}
+
+/* CONTENT SECTION */
+
+.ResumeContent {
+  padding: 0.25em 0;
+  background: var(--offWhite);
+}
+
+/* Objective */
+.ResumeObjective {
+  text-align: center;
+}
+
+/*  */
+
+/* FOOTER */
+
+.ResumeFooter {
+  padding: 0.5em;
+  text-align: center;
+  background: var(--middleGray);
+  padding-bottom:var(--footerHeight);  
+}

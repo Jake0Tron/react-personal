@@ -8,10 +8,8 @@ class Header extends Component {
     return (
       <div className="Header">
         <div className="Header-bezel">
-          <header className="Header-header">
             <img src={logo} className="Header-logo" alt="logo" />
             <h1 className="Header-title">Jake Deacon</h1>
-          </header>
           <NavMenu></NavMenu>
         </div>
       </div>
