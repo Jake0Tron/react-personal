@@ -9,7 +9,7 @@
     /* animation: Header-logo-spin infinite 30s linear; */
     height: 80px;
     opacity: 0.6;      
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
     
   }
   .Header-logo:hover {
@@ -41,12 +41,12 @@
     padding : 0px 250px 0px 250px;   
     display:inline-block;
     border-radius: 250px 250px 250px 250px;
-    transition: all 1s ease-in-out;
     
   }
-  .Header-bezel:hover{
-    border-radius: 125px;
-    padding: 0 500px 0 500px;
+
+  .Header-button-row{
+    border: 1px solid black;
+    padding: 2px;
   }
 
   @keyframes spin-clockwise {
