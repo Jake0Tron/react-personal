@@ -1,25 +1,28 @@
 .Header {
     text-align: center;
+    width: auto;
+    display: block;
+    background-color: #333;
   }
   
   .Header-logo {
     /* animation: Header-logo-spin infinite 30s linear; */
     height: 80px;
-    opacity: 0.3;      
+    opacity: 0.6;      
     transition: all 1s ease-in-out;
+    
   }
   .Header-logo:hover {
-    /* animation: Header-logo-spin infinite 30s linear; */
     height: 120px;
     transform: rotate(360deg);
     opacity: 1.0;  
-    
   }
   
   .Header-header {
-    background-color: #222;
     height: 160px;
     padding: 20px;
+    width: auto;
+    display: block;
     color: white;
   }
   
@@ -31,6 +34,21 @@
     font-size: large;
   }
   
+  
+
+  .Header-bezel{
+    background-color:#555; 
+    padding : 0px 250px 0px 250px;   
+    display:inline-block;
+    border-radius: 250px 250px 250px 250px;
+    transition: all 1s ease-in-out;
+    
+  }
+  .Header-bezel:hover{
+    border-radius: 125px;
+    padding: 0 500px 0 500px;
+  }
+
   @keyframes spin-clockwise {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
@@ -39,9 +57,4 @@
   @keyframes spin-counterclockwise {
     from { transform: rotate(360deg); }
     to { transform: rotate(0deg); }
-  }
-
-  @keyframes scale-10 {
-    from { transform: scale(2.0); }
-    to { transform: rotate(360deg); }
   }
