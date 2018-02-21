@@ -10,9 +10,9 @@
   font-size: 1.5em;
   font-weight: bold;
   padding: 0.25em 0.75em;
-  background:var(--middleGray);  
+  background: linear-gradient( var(--lightGray), var(--middleGray));
   transition: all 0.4s ease-in-out;
-
+  border-bottom: 1px solid black;
 }
 
 .SubTitle {
@@ -20,18 +20,20 @@
   font-weight: bold;
   padding: 0 0 0.25em 0.5em;
   transition: all 0.2s ease-in-out;
-  opacity:1.0;
-  background:var(--lightGray);
+  opacity: 1.0;
+  background: linear-gradient( var(--lightGray), var(--middleGray));
+  border-bottom: 1px solid black;
 
 }
 
-.SubTitle:hover{
-  background: linear-gradient(to right, var(--blueGray) , var(--darkGray));;
+.SubTitle:hover {
+  background: linear-gradient( var(--blueGray), var(--middleGray));
+  ;
 }
 
 .Content {
   font-size: 1.0em;
-  padding:0.25em 0.25em 0.25em 0.75em;
+  padding: 0.25em 0.25em 0.25em 0.75em;
 }
 
 .ContentTableRow {
@@ -76,11 +78,16 @@ li {
 }
 
 /* Objective */
+
 .ResumeObjective {
   text-align: center;
 }
 
-/*  */
+/* Education  */
+
+.ResumeEducation {
+  min-height: 7em;
+}
 
 /* FOOTER */
 
@@ -88,5 +95,5 @@ li {
   padding: 0.5em;
   text-align: center;
   background: var(--middleGray);
-  padding-bottom:var(--footerHeight);  
+  padding-bottom: var(--footerHeight);
 }

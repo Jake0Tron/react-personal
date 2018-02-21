@@ -15,26 +15,28 @@ class Resume extends Component {
             <div className="Title">Objective</div>
             <div className="Content">To gain experience and to continue learning and improving my skills in an agile-based software development team.</div>
           </div>
-          <div className="ResumeCharacteristics">
-            <div className="Title">Characteristics</div>
-            <div className="Content">
-              <ul>
-                <li>Critical thinker with strong problem solving skills</li>
-                <li>Strong communication skills</li>
-                <li>Pays close attention to detail</li>
-                <li>Team player who works well unsupervised</li>
-                <li>Fast Learner</li>
-              </ul>
+          <div className="SplitGroup">
+            <div className="ResumeCharacteristics">
+              <div className="Title">Characteristics</div>
+              <div className="Content">
+                <ul>
+                  <li>Critical thinker with strong problem solving skills</li>
+                  <li>Strong communication skills</li>
+                  <li>Pays close attention to detail</li>
+                  <li>Team player who works well unsupervised</li>
+                  <li>Fast Learner</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div className="ResumeAchievements">
-            <div className="Title">Summary of Achievements</div>
-            <div className="Content">
-              <ul>
-                <li>Received an Act For Impact reward in TD Securities for work on Diamond Onboarding</li>
-                <li>Released Mobile Game “Marionette Melee” to Google Play and Apple store</li>
-                <li>Nominated for Co-op Student of the Year Award 2015</li>
-              </ul>
+            <div className="ResumeAchievements">
+              <div className="Title">Summary of Achievements</div>
+              <div className="Content">
+                <ul>
+                  <li>Received an Act For Impact reward in TD Securities for work on Diamond Onboarding</li>
+                  <li>Released Mobile Game “Marionette Melee” to Google Play and Apple store</li>
+                  <li>Nominated for Co-op Student of the Year Award 2015</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="ResumeSkills">
@@ -122,7 +124,7 @@ class Resume extends Component {
           <div className="ResumeInterests">
             <div className="Title">Interests</div>
             <div className="Content">
-            UI Design, App Development, Augmented Reality, Running, Soccer, Hockey, Baseball, Gaming, Game Design, ESports
+              UI Design, App Development, Augmented Reality, Running, Soccer, Hockey, Baseball, Gaming, Game Design, ESports
             </div>
           </div>
         </div>

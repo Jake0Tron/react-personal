@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../res/img/facehole_brain_mirror.png';
+import logo from '../../res/img/facehole_brain_mirror_circle.png';
 import './header.css';
 import NavMenu from '../navMenu/navMenu';
 

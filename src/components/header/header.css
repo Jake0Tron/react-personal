@@ -15,8 +15,6 @@
     height: var(--logoLarge);
     transform: rotate(360deg);
     opacity: 1.0;  
-    background: var(--darkGray);
-    border-radius: 50em;
   }
   
   .Header-header {

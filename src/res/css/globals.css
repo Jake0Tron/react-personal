@@ -2,11 +2,11 @@
   --darkBlue:   #0D1B2A;
   --mediumBlue: #3A506B;
   --lightBlue:  #1481BA;
-  --blueGray:   #9191AE;
+  --blueGray:   rgb(161, 161, 177);
   
   --offWhite:   #DFDFDF;
-  --lightGray:  #999999;
-  --middleGray: #666666;
+  --lightGray:  #AAAAAA;
+  --middleGray: #777777;
   --darkGray:   #333333;
   --offBlack:   #111111;
 
